@@ -1,7 +1,7 @@
 const logger = require('../log/logger');
 const Comment = require('../model/commentModel');
 const mongoose = require('mongoose');
-const io = require('socket.io')(require('../server'));
+const io = require('socket.io')(require('../../src/server'));
 
 const addComment = async (req, res) => {
     try {

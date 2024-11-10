@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/server.js | npx pino-pretty",
+    "start": "nodemon ./api/index.js | npx pino-pretty",
     "lint": "eslint src/",
     "fix": "eslint src/ --fix",
-    "dev": "nodemon ./src/server | npx pino-pretty"
+    "dev": "nodemon ./api/index.js | npx pino-pretty"
   },
   "keywords": [],
   "author": "",
