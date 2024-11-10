@@ -7,8 +7,7 @@
     "start": "nodemon ./src/server.js | npx pino-pretty",
     "lint": "eslint src/",
     "fix": "eslint src/ --fix",
-    "dev": "nodemon ./src/server | npx pino-pretty",
-    "build": "npm build --output public"
+    "dev": "nodemon ./src/server | npx pino-pretty"
   },
   "keywords": [],
   "author": "",
